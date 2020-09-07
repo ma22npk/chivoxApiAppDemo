@@ -6,14 +6,14 @@
     'use strict';
 
     var Config = {
-        appKey: ''
+        appKey: '1575874525000026'
     };
 
     var main = function main() {
         var refText = 'Here is first text.';
         //refTextをindex.htmlで表示できるようにしてください。
         var sdk = new ChiVoxSDK({ //リファレンスを参考にインスタンスを作成してください
-            appKey: ,
+            appKey: '1575874525000026',
             sigurl: "",
             data: {
                 duration:,
