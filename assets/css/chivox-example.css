@@ -80,7 +80,7 @@ body {
   height: 500px;
   background: #ffffff;
   opacity: 0.9;
-  filter: Alpha(opacity=90);
+  /* filter: alpha(opacity=90); */
   *zoom: 1;
 }
 
@@ -91,7 +91,7 @@ body {
   height: 100%;
   background: #ffffff;
   opacity: 0.9;
-  filter: alpha(opacity=90);
+  /* filter: alpha(opacity=90); */
   *zoom: 1;
   text-align: left;
 }
