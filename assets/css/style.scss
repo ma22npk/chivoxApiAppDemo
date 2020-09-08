@@ -1,0 +1,11 @@
+// navbar-header ---------------------------
+li {
+  list-style: none;
+}
+
+.navbar-header {
+  ul {
+    display: flex;
+    justify-content: space-between;
+  }
+}
