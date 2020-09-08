@@ -11,6 +11,8 @@
   <link href="/assets/css/chivoxsdk.css" rel="stylesheet">
   <!-- chivox-example.css -->
   <link href="/assets/css/chivox-example.css" rel="stylesheet">
+  <!-- AiPanel CSS -->
+  <link href="/assets/css/ai_panel.css" rel="stylesheet">
   <!-- Style CSS -->
   <link href="/assets/css/style.css" rel="stylesheet">
 
@@ -34,9 +36,21 @@
       <div class="content">
         <div class="chivoxpanel">
           <div class="mainarea">
+            <p id="refText">最初のテキスト</p>
             <p class="title">文章診断</p>
             <!-- 評価テキストを表示するフレームを作成 -->
-            <!-- aipanelに関するhtml追加 -->
+            <!-- AiPanelに関するhtml追加 -->
+            <!-- AiPanel -->
+            <div id="aiPanel">
+              <!-- ボタン -->
+              <button class="playOff"></button>
+              <button class="playOn"></button>
+              <button class="recordOff"></button>
+              <button class="recordOn"></button>
+              <button class="replayDisabled"></button>
+              <!-- /ボタン -->
+            </div>
+            <!-- /AiPanel -->
             <p class="scoreTitle">評価</p>
             <!-- 評価結果を表示するフレームを作成 -->
             <p>評価結果</p>
