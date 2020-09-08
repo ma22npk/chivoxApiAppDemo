@@ -102,6 +102,7 @@ body {
   width: 142px;
   height: 142px;
   margin: 40px auto 10px;
+background-color: #fff;
 }
 
 .content .title {
@@ -128,17 +129,17 @@ body {
   color: #55BB47;
 }
 
-.p.question {
+.question {
   text-align: left;
 }
 
-.p.answer {
+.answer {
   text-align: left;
   margin-left: 10px;
 }
 
 .answer:before {
-  content: '　';
+  content: '';
 }
 
 .content>.doc {

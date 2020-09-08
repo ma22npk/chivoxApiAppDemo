@@ -34,14 +34,59 @@
       </div>
       <!-- /navbar-heder -->
       <div class="content">
+        <!-- メニュー -->
+        <div class="menu">
+          <div class="panel">panel</div>
+          <div class="bigpanel">bigpanel</div>
+        </div>
+        <!-- /メニュー -->
+        <!-- アイコン -->
+        <div class="icon">icon</div>
+        <!-- /アイコン -->
+        <!-- コンテンツリスト -->
+        <ul>
+          <li><a href="#">リスト1</a></li>
+          <li><a href="#">リスト2</a></li>
+          <li><a href="#">リスト3</a></li>
+        </ul>
+        <!-- /コンテンツリスト -->
+        <p class="question">question</p>
+        <p class="answer">answer</p>
+        <!-- doc -->
+        <div class="doc">
+          <a href="#">a</a>
+        </div>
+        <!-- /doc -->
+
+
         <div class="chivoxpanel">
+          <!-- リスト -->
+          <div class="list">
+            <p>テキストテキストテキスト</p>
+            <ul class="list">
+              <li><a href="#">リスト1</a></li>
+              <li><a href="#">リスト2</a></li>
+              <li><a href="#">リスト3</a></li>
+            </ul>
+          </div>
+          <!-- /リスト -->
           <div class="mainarea">
+            <!-- currentWord -->
+            <div class="currentWord">
+              <!-- *preタグ：半角スペースや改行をそのまま表示する -->
+              <pre>pre</pre>
+            </div>
+            <!-- /currentWord -->
+            <div class="message">
+              message
+            </div>
+
             <p id="refText">最初のテキスト</p>
             <p class="title">文章診断</p>
             <!-- 評価テキストを表示するフレームを作成 -->
             <!-- AiPanelに関するhtml追加 -->
             <!-- AiPanel -->
-            <div id="aiPanel">
+            <div class="aiPanel" id="aiPanel">
               <!-- ボタン -->
               <button class="playOff"></button>
               <button class="playOn"></button>
@@ -51,9 +96,41 @@
               <!-- /ボタン -->
             </div>
             <!-- /AiPanel -->
-            <p class="scoreTitle">評価</p>
+            <div class="scoreTitle">評価</div>
             <!-- 評価結果を表示するフレームを作成 -->
-            <p>評価結果</p>
+            <div class="scoreResult" id="scoreResult">
+              <p>評価結果</p>
+              <table>
+                <tr>
+                  <th>ヘッド</th>
+                  <th>ヘッド</th>
+                </tr>
+                <tr>
+                  <td>説明</td>
+                  <td>Doe</td>
+                </tr>
+                <tr>
+                  <td>Jane</td>
+                  <td>Doe</td>
+                </tr>
+              </table>
+            </div>
+            <!-- /評価結果を表示するフレームを作成 -->
+            <!-- aiPanel -->
+            <div class="aiPanelM">
+              <!-- listItem -->
+              <div class="listItem">
+                <p class="word">word</p>
+                <p class="scoreResult">scoreResult</p>
+              </div>
+              <!-- /listItem -->
+              <!-- chivox-recorder -->
+              <div class="chivox-recorder" id="chivox-recorder">
+                <div class="canvas">canvas</div>
+              </div>
+              <!-- /chivox-recorder -->
+            </div>
+            <!-- /aiPanel -->
           </div>
         </div>
       </div>
