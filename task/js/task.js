@@ -53,6 +53,12 @@
         
 
     };
+      //refTextがindex.htmlで表示されるよう処理を追加してください。
+      //リファレンスを参考にchaneWordButtonが押下された時に実行されるdataの再設定処理を追加してください。
+    $('.changeWordButton').on('click', function () {
+      //changeWordButtonが押下された時に、refTextが"Here is second text."になるように処理を追加してください。
+      document.getElementById('refText').innerText = "Here is second text.";
+    });
 
     main();
 
